@@ -1,0 +1,4 @@
+def remove_char(my_string, remove_char):
+    
+    my_string = my_string[0: my_string.find(remove_char):] + my_string[my_string.find(remove_char)+3::]
+    print(my_string)
